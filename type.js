@@ -1,4 +1,4 @@
-;(function (global) {
+;(function (window) {
   var u = {};
 
   /**
@@ -44,16 +44,5 @@
     return Object.keys(value).length === 0;
   }
 
-  global.type = u;
-})(global);
-
-
-/**
- * 测试
- */
-// var temp = [1, 23, 4];
-// console.log(type.isArray(temp));
-
-// console.log(type.isNumber('sss'));
-// console.log(type.isNumber(33));
-// console.log(type.isFunction(type.isNumber));
+  window.type = u;
+})(window);
