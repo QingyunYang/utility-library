@@ -44,5 +44,7 @@
     return Object.keys(value).length === 0;
   }
 
+  
+
   window.type = u;
 })(window);
